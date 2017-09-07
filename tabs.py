@@ -65,25 +65,25 @@ else:
 #     print("Have a good day working!!!")
 
 # Example of FALSE stmts
-# x = input("Please enter something : ")
+x = input("Please enter something : ")
 #
 # # If you enter anything this loop will be executed
-# if x:
-#     print("You entered '{}'".format(x))
-# else:
-#     print("You didn't enter anything!!")
+if x:
+    print("You entered '{}'".format(x))
+else:
+    print("You didn't enter anything!!")
 
 # Example of NOT
-# print(not True)
-# print(not False)
-#
-# age = int(input("How old are you ? "))
-#
-# if not(age < 18):
-#     print("Hurray, You can vote !!")
-#     print("Please put X in the box")
-# else:
-#     print("Please come back in {} years !".format(18 - age))
+print(not True)
+print(not False)
+
+age = int(input("How old are you ? "))
+
+if not(age < 18):
+    print("Hurray, You can vote !!")
+    print("Please put X in the box")
+else:
+    print("Please come back in {} years !".format(18 - age))
 
 # Example of IN keyword
 parrot = "Cute Bird"
