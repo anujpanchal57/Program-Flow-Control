@@ -50,24 +50,25 @@ if guess != 5:
 else:
     print("Kuddos, you did it in the first go")
 
-# age = int(input("How old are you ? "))
+# Examples of IF & AND keywords
+age = int(input("How old are you ? "))
 
 # Incase of AND stmt, python checks both the conditions and if they're true then only the loop will execute
-# if (age >= 18) and (age <= 60):
-# if 18 <= age <= 60:
-#     print("Have a good day working !!")
+if (age >= 18) and (age <= 60):
+if 18 <= age <= 60:
+    print("Have a good day working !!")
 
 # Whereas incase of OR stmt, python checks only any one of the two conditions and if any one of them evaluates to true
 # Then if will run the IF loop otherwise it will jump to the ELSE loop
-# if (age < 18) or (age > 60):
-#     print("Enjoy your life")
-# else:
-#     print("Have a good day working!!!")
+if (age < 18) or (age > 60):
+    print("Enjoy your life")
+else:
+    print("Have a good day working!!!")
 
 # Example of FALSE stmts
 x = input("Please enter something : ")
-#
-# # If you enter anything this loop will be executed
+
+# If you enter anything this loop will be executed
 if x:
     print("You entered '{}'".format(x))
 else:
