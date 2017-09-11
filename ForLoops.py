@@ -19,12 +19,11 @@ for i in range(0, len(number)):
 
 number = "9,223,372,036,854,775,807"
 cleanNumber = ''
-# for i in range(0, len(number)):
-#     if number[i] in '0123456789':
-#         cleanNumber = cleanNumber + number[i] # Cleans off the commas and adds each number in the 'cleanNumber'
-#
-# newNumber = int(cleanNumber) # Converts cleanNumber into INT data type
-# print("The number is {}".format(newNumber))
+for i in range(0, len(number)):
+    if number[i] in '0123456789':
+        cleanNumber = cleanNumber + number[i] # Cleans off the commas and adds each number in the 'cleanNumber'
+newNumber = int(cleanNumber) # Converts cleanNumber into INT data type
+print("The number is {}".format(newNumber))
 
 number = "9,223,372,036,854,775,807"
 cleanNumber = ''
