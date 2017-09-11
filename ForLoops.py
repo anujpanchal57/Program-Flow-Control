@@ -7,18 +7,18 @@ for i in range(0, len(number)): # len() is the property to give length
     print(number[i]) # This prints the number at the index position of i
 
 # This code prints only the numbers ignoring the commas
-# number = "9,223,372,036,854,775,807"
-# for i in range(0, len(number)):
-#     if number[i] in '0123456789': # Condition written for ignoring the commas
-#         print(number[i])
+number = "9,223,372,036,854,775,807"
+for i in range(0, len(number)):
+    if number[i] in '0123456789': # Condition written for ignoring the commas
+        print(number[i])
 
-# number = "9,223,372,036,854,775,807"
-# for i in range(0, len(number)):
-#     if number[i] in '0123456789': # Condition written for ignoring the commas
-#         print(number[i], end='') # This will abort python from adding new line
+number = "9,223,372,036,854,775,807"
+for i in range(0, len(number)):
+    if number[i] in '0123456789': # Condition written for ignoring the commas
+        print(number[i], end='') # This will abort python from adding new line
 
-# number = "9,223,372,036,854,775,807"
-# cleanNumber = ''
+number = "9,223,372,036,854,775,807"
+cleanNumber = ''
 # for i in range(0, len(number)):
 #     if number[i] in '0123456789':
 #         cleanNumber = cleanNumber + number[i] # Cleans off the commas and adds each number in the 'cleanNumber'
