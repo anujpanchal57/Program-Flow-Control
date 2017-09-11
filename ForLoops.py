@@ -1,10 +1,10 @@
-# for i in range(1, 21):
-#     print(i)
+for i in range(1, 21):
+    print(i)
 
 # It is printing the numbers one by one
-# number = "9,223,372,036,854,775,807"
-# for i in range(0, len(number)): # len() is the property to give length
-#     print(number[i]) # This prints the number at the index position of i
+number = "9,223,372,036,854,775,807"
+for i in range(0, len(number)): # len() is the property to give length
+    print(number[i]) # This prints the number at the index position of i
 
 # This code prints only the numbers ignoring the commas
 # number = "9,223,372,036,854,775,807"
