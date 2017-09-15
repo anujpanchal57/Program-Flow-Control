@@ -4,6 +4,8 @@ Programs related to if, if-else, for, elif, while, continue, break statements ca
 
 * Some more related examples of code is also added for keywords like AND, IN, etc
 
+* Examples related to LISTS also added
+
 ## Resources Used
 
 * IntelliJ IDEA
