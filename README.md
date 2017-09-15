@@ -6,6 +6,8 @@ Programs related to if, if-else, for, elif, while, continue, break statements ca
 
 * Examples related to LISTS also added
 
+* ITERATORS also added
+
 ## Resources Used
 
 * IntelliJ IDEA
