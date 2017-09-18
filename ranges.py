@@ -69,3 +69,38 @@ for i in range(3, 40, 3):
 
 # Returns TRUE
 print(my_range == range(3, 40, 3))
+
+decimals = range(0, 100)
+my_range = decimals[3:40:3]
+
+print(my_range)
+
+print(my_range == range(3, 40, 3))
+print(range(0, 5, 2) == range(0, 6, 2))
+
+print(list(range(0, 5, 2)))
+print(list(range(0, 6, 2)))
+
+r = range(0, 100)
+print(r)
+
+# Helps in slicing the range in the descending order starting from 99 goes upto 1
+for i in r[::-2]:
+    print(i)
+
+# Separator
+print("=" *50)
+
+# Alternative code for the above one
+for i in range(99, 0, -2):
+    print(i)
+
+print("=" *50)
+
+# Comparing the two different codes
+print(range(0, 100)[::-2] == range(99, 0, -2))
+
+This will print the result as "Mafia is a Cute Doggo"
+It traverses the string in reverse
+backString = "oggoD etuC a si aifaM"
+print(backString[::-1])
