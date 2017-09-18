@@ -10,6 +10,8 @@ Programs related to if, if-else, for, elif, while, continue, break statements ca
 
 * Examples of RANGE added
 
+* Examples of TUPLES, BINARY SYSTEM, HEXADECIMAL SYSTEM also added
+
 ## Resources Used
 
 * IntelliJ IDEA
